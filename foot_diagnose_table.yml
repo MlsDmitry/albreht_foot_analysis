@@ -1,0 +1,90 @@
+shopart_angle:
+
+  normal: 
+    min: 170
+    max: 180
+
+  longitudinal_flatfoot:
+    first_degree_deviation:
+      degree: 1
+      min: 155
+      max: 169
+
+    second_degree_deviation:
+      degree: 2
+      min: 140
+      max: 154
+
+    third_degree_deviation:
+      degree: 3
+      min: 130
+      max: 139
+
+first_finger_deviation:
+  normal: 
+    min: 0
+    max: 10
+
+  forefoot_splay:
+    first_degree_deviation:
+      degree: 1
+      min: 11
+      max: 29
+
+    second_degree_deviation:
+      degree: 2
+      min: 30
+      max: 49
+
+    third_degree_deviation:
+      degree: 3
+      min: 50
+      max: Inf
+
+
+forefoot_spread_deviation:
+  normal:
+    min: 0.3
+    max: 0.35
+  
+  forefoot_splay:
+    first_degree_deviation:
+      degree: 1
+      min: 0.36
+      max: 0.4
+
+    second_degree_deviation:
+        degree: 2
+        min: 0.41
+        max: 0.45
+
+    third_degree_deviation:
+        degree: 3
+        min: 0.46
+        max: Inf
+        
+podometric_index_deviation:
+  normal:
+    min: 29
+    max: 31
+  
+  longitudinal_flatfoot:
+    forth_degree_deviation:
+      degree: 0
+      min: 31
+      max: Inf
+
+    first_degree_deviation:
+      degree: 1
+      min: 27
+      max: 29
+
+    second_degree_deviation:
+      degree: 2
+      min: 25
+      max: 27
+
+    third_degree_deviation:
+      degree: 3
+      min: 25
+      max: 0
