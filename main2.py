@@ -11,7 +11,7 @@ import numpy as np
 
 #     Parameters:
 #     norm: two numbers specifying the scope of normal values. For example (-5, 5) or (3, 3.5)
-#     """
+#     """w
 #     def __init__(self, norm):
         
 #         self.norm = norm
@@ -77,6 +77,9 @@ def first_finger_deviation_caluclate():
 
 
 def check_value_for_deviation(criterion_name, value):
+    with open('foot_diagnose_table.yml', 'r') as f:
+        foot_diagnose_table = yaml.safe_load(f)
+
     criterion = foot_diagnose_table.get(criterion_name)
 
     if not criterion:
@@ -109,26 +112,26 @@ def check_value_for_deviation(criterion_name, value):
         return -1
     
     
-def forefoot_spread_calculate():
+def forefoot_spread_calculate(foot_length=132.09, foot_width_bundles=57.05):
     """ Расчет коэффициента распластаности переднего отдела стопы (k2).
     
     """
-    foot_length = 132.09
-    foot_width_bundles = 57.05
+    # foot_length = 132.09
+    # foot_width_bundles = 57.05
 
     return foot_width_bundles / foot_length
 
 # print(check_value_for_deviation('first_finger_deviation', 11))
 
-def scaphoid_height_calculate():
+def scaphoid_height_calculate(scaphoid_tuberosity_height=29.11):
     """ Значение высоты бугристости ладьевидной кости (G')
     
     """
 
-    return 29.11
+    return scaphoid_tuberosity_height
 
 
-def podometric_index_calculate():
+def podometric_index_calculate(foot_length=136.94, scaphoid_height=48.26):
     """ Расчет подометрического индекса (p)
     
     p = h / L * 100
@@ -138,10 +141,64 @@ def podometric_index_calculate():
     L - длина стопы
     
     """
-    foot_length = 136.94
-    scaphoid_height = 48.26
+    # foot_length = 136.94
+    # scaphoid_height = 48.26
 
     return scaphoid_height / foot_length * 100
+
+def bot_wants_diagnosis(age, gender, foot_length, scaphoid_height, scaphoid_tuberosity, foot_width):
+    global points, foot_diagnose_table
+
+    points = {}
+
+    with open('project-1-at-2025-09-03-20-45-48dde6f7.json') as f:
+        fannotations = json.load(f)
+
+        annot_points = fannotations[0]["annotations"][0]["result"]
+
+        for annot_point in annot_points:
+            value = annot_point["value"]
+
+            x = int(value["x"])
+            y = int(value["y"])
+            label = value["keypointlabels"][0]
+
+            points[label] = (x, y)
+
+    print('Угол Шопарова сустава(alpha1):', chopart_angle_calculate())
+    print('Подометрический индекс (p)%:', podometric_index_calculate(foot_length, scaphoid_height))
+    print('Угол отклонения первого пальца(alpha2):', first_finger_deviation_caluclate())
+    print('Коэффициент распластаности переднего отдела стопы (k2):', forefoot_spread_calculate(foot_length, foot_width))
+
+    print('Диагноз:')
+
+    text = ''
+
+    # Берем два критерия, по которым смотрится наибольшее отклонение - это и есть степень деформации.
+
+    degree = []
+    degree.append(check_value_for_deviation('chopart_angle_deviation', chopart_angle_calculate()))
+    degree.append(check_value_for_deviation('podometric_index_deviation', podometric_index_calculate(foot_length, scaphoid_height)))
+
+    degree_max = max(degree)
+    if degree_max == 0:
+        text += 'Деформаций соответствующим продольному плоскостопию на снимках нету.\n'
+    else:
+        text += f'Снимку стопы соответствует {degree_max} степень продольного плоскостопия.\n'
+
+    degree = []
+    degree.append(check_value_for_deviation('first_finger_deviation', first_finger_deviation_caluclate()))
+    degree.append(check_value_for_deviation('forefoot_spread_deviation', forefoot_spread_calculate(foot_length, foot_width)))
+
+    degree_max = max(degree)
+    if degree_max == 0:
+        text += 'Деформаций соответствующим распластанности переднего отдела стопы на снимках нету.\n'
+    else:
+        text += f'Снимку стопы соответствует {degree_max} степень распластанности переднего отдела стопы.\n'
+
+    print(text)
+
+    return text
 
 if __name__ == '__main__':
     global points
