@@ -1,0 +1,17 @@
+/anime-ml/
+/stepik/
+/книги/
+/Новая папка/
+
+/.venv
+.python-version
+**/__pycache__
+**/.ipynb_checkpoints
+**/.virtual_documents
+
+/обработка изображений/
+!/обработка изображений/**/*.ipynb
+!/обработка изображений/плантограммы
+
+/albreht.tar
+
