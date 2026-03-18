@@ -1,0 +1,28 @@
+<Points>
+    <PointV1 id="0" x="413" y="113" Name="O" xReal="104" yReal="28" />
+    <PointV1 id="1" x="240" y="1007" Name="O_" xReal="60" yReal="255" />
+    <PointV1 id="6" x="702" y="256" Name="A" xReal="178" yReal="64" />
+    <PointV1 id="7" x="484" y="207" Name="B" xReal="122" yReal="52" />
+    <PointV1 id="8" x="312" y="664" Name="B_" xReal="79" yReal="168" />
+    <PointV1 id="9" x="675" y="838" Name="A_" xReal="171" yReal="212" />
+    <PointV1 id="10" x="688" y="547" Name="P" xReal="174" yReal="138" />
+    <PointV1 id="11" x="409" y="534" Name="Q" xReal="103" yReal="135" />
+    <PointV1 id="12" x="593" y="1081" Name="D" xReal="150" yReal="274" />
+    <PointV1 id="13" x="593" y="231" Name="C" xReal="150" yReal="58" />
+    <PointV1 id="14" x="477" y="743" Name="C_" xReal="121" yReal="188" />
+    <PointV1 id="15" x="596" y="543" Name="p" xReal="151" yReal="137" />
+    <PointV1 id="16" x="504" y="539" Name="q" xReal="127" yReal="136" />
+    <PointV1 id="17" x="447" y="453" Name="S" xReal="113" yReal="114" />
+    <PointV1 id="18" x="24" y="38" Name="H1" xReal="6" yReal="9" />
+    <PointV1 id="19" x="24" y="205" Name="H2" xReal="6" yReal="52" />
+    <PointV1 id="20" x="24" y="372" Name="H3" xReal="6" yReal="94" />
+    <PointV1 id="21" x="24" y="669" Name="H4" xReal="6" yReal="169" />
+    <PointV1 id="22" x="24" y="966" Name="H5" xReal="6" yReal="245" />
+    <PointV1 id="23" x="493" y="751" Name="C__" xReal="125" yReal="190" />
+    <PointV1 id="24" x="413" y="534" Name="P_" xReal="104" yReal="135" />
+    <PointV1 id="25" x="803" y="188" Name="H1_" xReal="203" yReal="47" />
+    <PointV1 id="26" x="803" y="355" Name="H2_" xReal="203" yReal="90" />
+    <PointV1 id="27" x="803" y="522" Name="H3_" xReal="203" yReal="132" />
+    <PointV1 id="28" x="803" y="819" Name="H4_" xReal="203" yReal="207" />
+    <PointV1 id="29" x="803" y="1116" Name="H5_" xReal="203" yReal="283" />
+</Points>

@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+	<version>1.1</version>
+	<meta>
+		<task>
+			<id>1</id>
+			<name>diasled_annotation</name>
+			<size>26</size>
+			<mode>annotation</mode>
+			<start_frame>0</start_frame>
+			<stop_frame>0</stop_frame>
+			<frame_filter />
+			<source>row1_Сканирование 11_22_photo1.jpg</source>
+			<labels>
+				<label>
+					<name>A</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>A_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>B</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>B_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>C</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>C_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>C__</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>D</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H1</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H1_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H2</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H2_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H3</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H3_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H4</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H4_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H5</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>H5_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>O</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>O_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>P</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>P_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>Q</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>S</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>p</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>q</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+			</labels>
+		</task>
+	</meta>
+	<image id="0" name="row1_Сканирование 11_22_photo1.jpg" width="827" height="1170">
+		<points label="O" occluded="0" source="manual" points="413,1057" z_order="0" group_id="0" />
+		<points label="O_" occluded="0" source="manual" points="240,163" z_order="0" group_id="0" />
+		<points label="A" occluded="0" source="manual" points="702,914" z_order="0" group_id="0" />
+		<points label="B" occluded="0" source="manual" points="484,963" z_order="0" group_id="0" />
+		<points label="B_" occluded="0" source="manual" points="312,506" z_order="0" group_id="0" />
+		<points label="A_" occluded="0" source="manual" points="675,332" z_order="0" group_id="0" />
+		<points label="P" occluded="0" source="manual" points="688,623" z_order="0" group_id="0" />
+		<points label="Q" occluded="0" source="manual" points="409,636" z_order="0" group_id="0" />
+		<points label="D" occluded="0" source="manual" points="593,89" z_order="0" group_id="0" />
+		<points label="C" occluded="0" source="manual" points="593,939" z_order="0" group_id="0" />
+		<points label="C_" occluded="0" source="manual" points="477,427" z_order="0" group_id="0" />
+		<points label="p" occluded="0" source="manual" points="596,627" z_order="0" group_id="0" />
+		<points label="q" occluded="0" source="manual" points="504,631" z_order="0" group_id="0" />
+		<points label="S" occluded="0" source="manual" points="447,717" z_order="0" group_id="0" />
+		<points label="H1" occluded="0" source="manual" points="24,1132" z_order="0" group_id="0" />
+		<points label="H2" occluded="0" source="manual" points="24,965" z_order="0" group_id="0" />
+		<points label="H3" occluded="0" source="manual" points="24,798" z_order="0" group_id="0" />
+		<points label="H4" occluded="0" source="manual" points="24,501" z_order="0" group_id="0" />
+		<points label="H5" occluded="0" source="manual" points="24,204" z_order="0" group_id="0" />
+		<points label="C__" occluded="0" source="manual" points="493,419" z_order="0" group_id="0" />
+		<points label="P_" occluded="0" source="manual" points="413,636" z_order="0" group_id="0" />
+		<points label="H1_" occluded="0" source="manual" points="803,982" z_order="0" group_id="0" />
+		<points label="H2_" occluded="0" source="manual" points="803,815" z_order="0" group_id="0" />
+		<points label="H3_" occluded="0" source="manual" points="803,648" z_order="0" group_id="0" />
+		<points label="H4_" occluded="0" source="manual" points="803,351" z_order="0" group_id="0" />
+		<points label="H5_" occluded="0" source="manual" points="803,54" z_order="0" group_id="0" />
+	</image>
+</annotations>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+	<version>1.1</version>
+	<meta>
+		<task>
+			<id>1</id>
+			<name>diasled_annotation</name>
+			<size>8</size>
+			<mode>annotation</mode>
+			<start_frame>0</start_frame>
+			<stop_frame>0</stop_frame>
+			<frame_filter />
+			<source>row1_Сканирование 11_22_photo3.jpg</source>
+			<labels>
+				<label>
+					<name>G</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>G_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>G__</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>G___</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>L</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>L1</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>L1_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+				<label>
+					<name>L_</name>
+					<color>#000000</color>
+					<type>points</type>
+				</label>
+			</labels>
+		</task>
+	</meta>
+	<image id="0" name="row1_Сканирование 11_22_photo3.jpg" width="1169" height="827">
+		<points label="L" occluded="0" source="manual" points="1062,792" z_order="0" group_id="0" />
+		<points label="L_" occluded="0" source="manual" points="97,792" z_order="0" group_id="0" />
+		<points label="G" occluded="0" source="manual" points="809,792" z_order="0" group_id="0" />
+		<points label="G_" occluded="0" source="manual" points="809,595" z_order="0" group_id="0" />
+		<points label="L1" occluded="0" source="manual" points="1062,586" z_order="0" group_id="0" />
+		<points label="L1_" occluded="0" source="manual" points="97,586" z_order="0" group_id="0" />
+		<points label="G__" occluded="0" source="manual" points="611,726" z_order="0" group_id="0" />
+		<points label="G___" occluded="0" source="manual" points="611,792" z_order="0" group_id="0" />
+	</image>
+</annotations>

@@ -1,0 +1,10 @@
+<Points>
+    <PointV1 id="0" x="117" y="39" Name="L" xReal="29" yReal="9" />
+    <PointV1 id="1" x="1077" y="39" Name="L_" xReal="273" yReal="9" />
+    <PointV1 id="2" x="406" y="39" Name="G" xReal="103" yReal="9" />
+    <PointV1 id="3" x="406" y="241" Name="G_" xReal="103" yReal="61" />
+    <PointV1 id="4" x="117" y="245" Name="L1" xReal="29" yReal="62" />
+    <PointV1 id="5" x="1077" y="245" Name="L1_" xReal="273" yReal="62" />
+    <PointV1 id="6" x="544" y="111" Name="G__" xReal="138" yReal="28" />
+    <PointV1 id="7" x="544" y="39" Name="G___" xReal="138" yReal="9" />
+</Points>
