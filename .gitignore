@@ -17,5 +17,17 @@
 /code_octave_process.m
 /foot_analysis_result.png
 /main.py
-
-
+cvat/
+DiaSled/
+diasled/
+**/venv/
+обработка изображений/week1_simple_ml/synthetic_dataset/
+обработка изображений/tapochki_photos/
+обработка изображений/cvlab/
+обработка изображений/BiRefNet
+dataset-preprocessed/
+diasledVBAExtracted/
+статьи/
+DiaSled.7z
+unet/
+local-data/
